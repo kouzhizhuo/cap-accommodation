@@ -11,7 +11,7 @@ Chat models answer users of African American English, Singlish and Nigerian Pidg
 - `code/paper_tools/`: `json2tex.py` (result keys), `make_tables.py`, `style_tables.py`, `check_keys.py`, `regen.sh`.
 - `code/figures/`: figure scripts; `code/E4/`: preference-data audit; `code/gold/`: human-audit sheet builders and protocol; `code/prereg/`: pre-registration and the CAP pre-declaration.
 - `data/stimuli/`: the variety-twin requests and their renderings (ours) and the rendering rules; WildChat items as identifiers and source hashes only.
-- `results/`: the small JSON/CSV files every number in the paper comes from; `results/human_audit/`: blind audit items and labels, without annotator identity.
+- `results/`: the small JSON/CSV files every number in the paper comes from; `results/human_audit/`: blind audit items and consensus labels from a panel of five or more annotators with PhD-level training in related fields, agreed through discussion (no annotator identity; no inter-annotator agreement, since labels are consensus).
 
 ## Install
 Python 3.9+ for analysis and tables (`pip install -r requirements.txt`); a separate Python 3.12 environment for IFEval scoring; vLLM on NVIDIA GPUs for generation. See `ENV.md`.
