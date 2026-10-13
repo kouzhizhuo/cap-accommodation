@@ -1,0 +1,235 @@
+{
+ "types": {
+  "U": {
+   "held": {
+    "chosen_mean": 0.0015626791237874573,
+    "rejected_mean": 0.00083042605478992,
+    "diff": 0.0007322530689975374,
+    "diff_se": 0.00047244211382089265
+   },
+   "train": {
+    "chosen_mean": 1.3431745845271135,
+    "rejected_mean": 0.0003921568627450981,
+    "diff": 1.3427824276643685,
+    "diff_se": 0.012360683881787278
+   },
+   "words": {
+    "chosen_mean": 167.56733333333332,
+    "rejected_mean": 166.29133333333334,
+    "diff": 1.276,
+    "diff_se": 0.020059555772194402
+   },
+   "sents": {
+    "chosen_mean": 12.074666666666667,
+    "rejected_mean": 12.074666666666667,
+    "diff": 0,
+    "diff_se": 0.0
+   },
+   "punct": {
+    "chosen_mean": 18.477285812487647,
+    "rejected_mean": 17.673884878188005,
+    "diff": 0.8034009342996395,
+    "diff_se": 0.009720633111708473
+   },
+   "newlines": {
+    "chosen_mean": 7.06,
+    "rejected_mean": 7.06,
+    "diff": 0,
+    "diff_se": 0.0
+   },
+   "bullets": {
+    "chosen_mean": 0.18733333333333332,
+    "rejected_mean": 0.21,
+    "diff": -0.02266666666666667,
+    "diff_se": 0.003718701485833562
+   },
+   "n_pairs": 3000
+  },
+  "O": {
+   "held": {
+    "chosen_mean": 0.0034960446889513385,
+    "rejected_mean": 0.006292826854746212,
+    "diff": -0.0027967821657948733,
+    "diff_se": 0.001190027109254797
+   },
+   "train": {
+    "chosen_mean": 1.6814992334397698,
+    "rejected_mean": 3.8724381195629114,
+    "diff": -2.190938886123141,
+    "diff_se": 0.020400971655965473
+   },
+   "words": {
+    "chosen_mean": 100.73862019914651,
+    "rejected_mean": 102.3954480796586,
+    "diff": -1.656827880512091,
+    "diff_se": 0.028842061610319686
+   },
+   "sents": {
+    "chosen_mean": 7.59352773826458,
+    "rejected_mean": 7.594950213371266,
+    "diff": -0.001422475106685633,
+    "diff_se": 0.000710731514464563
+   },
+   "punct": {
+    "chosen_mean": 19.44302664092126,
+    "rejected_mean": 20.03236451165566,
+    "diff": -0.5893378707344001,
+    "diff_se": 0.017318910799174435
+   },
+   "newlines": {
+    "chosen_mean": 5.081081081081081,
+    "rejected_mean": 5.081081081081081,
+    "diff": 0,
+    "diff_se": 0.0
+   },
+   "bullets": {
+    "chosen_mean": 0.17532005689900426,
+    "rejected_mean": 0.1461593172119488,
+    "diff": 0.029160739687055477,
+    "diff_se": 0.004520819966593078
+   },
+   "n_pairs": 2812
+  },
+  "A": {
+   "held": {
+    "chosen_mean": 0.0032988040893353536,
+    "rejected_mean": 0.005226133844768344,
+    "diff": -0.0019273297554329902,
+    "diff_se": 0.0015502832164638262
+   },
+   "train": {
+    "chosen_mean": 0.00028735632183908046,
+    "rejected_mean": 1.9226315281829407,
+    "diff": -1.9223441718611016,
+    "diff_se": 0.02125498555337524
+   },
+   "words": {
+    "chosen_mean": 153.74833333333333,
+    "rejected_mean": 155.94233333333332,
+    "diff": -2.194,
+    "diff_se": 0.03755749962095157
+   },
+   "sents": {
+    "chosen_mean": 10.824666666666667,
+    "rejected_mean": 10.825666666666667,
+    "diff": -0.001,
+    "diff_se": 0.0005770615218501404
+   },
+   "punct": {
+    "chosen_mean": 17.47899624606832,
+    "rejected_mean": 17.96051759079832,
+    "diff": -0.48152134473000396,
+    "diff_se": 0.014905049771380673
+   },
+   "newlines": {
+    "chosen_mean": 6.286,
+    "rejected_mean": 6.286,
+    "diff": 0,
+    "diff_se": 0.0
+   },
+   "bullets": {
+    "chosen_mean": 0.137,
+    "rejected_mean": 0.11433333333333333,
+    "diff": 0.02266666666666667,
+    "diff_se": 0.003893850802749647
+   },
+   "n_pairs": 3000
+  },
+  "Uu": {
+   "held": {
+    "chosen_mean": 0.002500267568337815,
+    "rejected_mean": 0.00083042605478992,
+    "diff": 0.0016698415135478952,
+    "diff_se": 0.0011991791082177998
+   },
+   "train": {
+    "chosen_mean": 1.3966640370123098,
+    "rejected_mean": 0.0003921568627450981,
+    "diff": 1.3962718801495648,
+    "diff_se": 0.0138897808023846
+   },
+   "words": {
+    "chosen_mean": 167.434,
+    "rejected_mean": 166.29133333333334,
+    "diff": 1.1426666666666667,
+    "diff_se": 0.023755557634341454
+   },
+   "sents": {
+    "chosen_mean": 12.074666666666667,
+    "rejected_mean": 12.074666666666667,
+    "diff": 0,
+    "diff_se": 0.0
+   },
+   "punct": {
+    "chosen_mean": 18.523699141578305,
+    "rejected_mean": 17.673884878188005,
+    "diff": 0.8498142633903001,
+    "diff_se": 0.01036464563942843
+   },
+   "newlines": {
+    "chosen_mean": 7.06,
+    "rejected_mean": 7.06,
+    "diff": 0,
+    "diff_se": 0.0
+   },
+   "bullets": {
+    "chosen_mean": 0.18433333333333332,
+    "rejected_mean": 0.21,
+    "diff": -0.025666666666666667,
+    "diff_se": 0.004359200572310206
+   },
+   "n_pairs": 3000
+  }
+ },
+ "mirror_target_vs_achieved": {
+  "n": 45000,
+  "mean_signed_hits": -1.8605979006590032,
+  "mean_abs_rel": 0.37527578247131416,
+  "share_within_25pct": 0.38797777777777775,
+  "share_overshoot": 0.13986666666666667
+ },
+ "disjointness": {
+  "train_vs_V300": {
+   "seed_id_overlap": 0,
+   "text_overlap": 0
+  },
+  "train_vs_F300": {
+   "seed_id_overlap": 0,
+   "text_overlap": 0
+  },
+  "train_vs_v1": {
+   "seed_id_overlap": 0,
+   "text_overlap": 0
+  },
+  "V300_vs_F300": {
+   "seed_id_overlap": 0,
+   "text_overlap": 0
+  },
+  "V300_vs_v1": {
+   "seed_id_overlap": 0,
+   "text_overlap": 0
+  },
+  "F300_vs_v1": {
+   "seed_id_overlap": 0,
+   "text_overlap": 0
+  }
+ },
+ "train_seed_reuse": {
+  "n_rows": 60000,
+  "n_unique_seeds": 54716
+ },
+ "sft_logprob_per_token": {
+  "U": {
+   "matched": -1.0149704919313296,
+   "full": -1.0316821591206626,
+   "orig": -0.7685298530519131,
+   "mirror_minus_full": 0.01671166718933306
+  },
+  "O": {
+   "matched": -1.1512672629696485,
+   "full": -1.333077862588897,
+   "orig": -0.8668706702528687,
+   "mirror_minus_full": 0.18181059961924848
+  }
+ }
+}

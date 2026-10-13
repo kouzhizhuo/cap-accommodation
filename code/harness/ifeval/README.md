@@ -1,0 +1,3 @@
+IFEval (Zhou et al. 2023) for the E5 helpfulness check (GATE_MEMO §4/(4); notes/EXPERIMENTS_BROADEN rank 2).
+- ifeval_input_data.jsonl: google/IFEval via hf-mirror (541 prompts). pylibs/: the instruction checkers from EleutherAI/lm-evaluation-harness (lm_eval/tasks/ifeval, copied verbatim) + pure-Python deps (langdetect, immutabledict, absl, six). Needs nltk (punkt_tab) from the host's NLTK_DATA.
+- make_stimuli.py -> stimuli/ifeval/IFEVAL.jsonl (gen.py format);  generation: gen.py --stimuli stimuli/ifeval --conds IFEVAL --seeds 0 --n 1 --temperature 0 --max-tokens 1280  (greedy);  ifeval_score.py -> prompt/instruction-level strict+loose accuracy.

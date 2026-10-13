@@ -1,0 +1,48 @@
+{
+ "eligible": 162842,
+ "prevalence_n": {
+  "AAE_bearing(>=1 retained AAE morph hit)": 814,
+  "SGE_bearing(>=2 particle/lexis hits)": 22,
+  "SGE_bearing(>=1 particle/lexis hit)": 72,
+  "SGE_any_hit": 270,
+  "BRE_any": 6504
+ },
+ "prevalence_share": {
+  "AAE_bearing(>=1 retained AAE morph hit)": 0.005,
+  "SGE_bearing(>=2 particle/lexis hits)": 0.00014,
+  "SGE_bearing(>=1 particle/lexis hit)": 0.00044,
+  "SGE_any_hit": 0.00166,
+  "BRE_any": 0.03994
+ },
+ "pool_sizes": {
+  "AAEN": 795,
+  "SGEN": 71,
+  "BREN": 6438,
+  "CTRL": 152922
+ },
+ "selected": {
+  "AAEN": 500,
+  "SGEN": 71,
+  "BREN": 0,
+  "CTRL": 502
+ },
+ "word_decile_cuts": [
+  48,
+  89,
+  119,
+  142,
+  158,
+  169,
+  187,
+  215,
+  266
+ ],
+ "seed": 20261004,
+ "mean_words": {
+  "AAEN": 156.4,
+  "SGEN": 146.1,
+  "BREN": 0.0,
+  "CTRL": 154.5
+ },
+ "source": "allenai/WildChat-1M first user turns (English, non-toxic, non-redacted, 20-300 words, no code/URL/non-ASCII>3%)"
+}

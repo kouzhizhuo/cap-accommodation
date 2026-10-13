@@ -1,0 +1,340 @@
+{
+ "seed": 20261006,
+ "n_items": 40,
+ "purpose": "D24 no-caricature check: CAP vs the one-sided recipe (UNMATCHED), same model, F300 AAE/SGE requests",
+ "general_instructions": "Thank you for labelling these 40 short items (about 10 minutes). Each item shows a user's message and a chatbot reply; decide how the reply's language relates to the way the user writes.",
+ "item_provenance": {
+  "C001": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16852",
+   "variety": "AAE",
+   "user_density": 7.547169811320755,
+   "tertile": 2
+  },
+  "C002": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16323",
+   "variety": "AAE",
+   "user_density": 5.0,
+   "tertile": 2
+  },
+  "C003": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16172",
+   "variety": "SGE",
+   "user_density": 2.2222222222222223,
+   "tertile": 1
+  },
+  "C004": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16352",
+   "variety": "SGE",
+   "user_density": 0.0,
+   "tertile": 0
+  },
+  "C005": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16799",
+   "variety": "SGE",
+   "user_density": 3.8461538461538463,
+   "tertile": 2
+  },
+  "C006": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16286",
+   "variety": "SGE",
+   "user_density": 7.142857142857143,
+   "tertile": 2
+  },
+  "C007": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16252",
+   "variety": "AAE",
+   "user_density": 7.5,
+   "tertile": 2
+  },
+  "C008": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16437",
+   "variety": "AAE",
+   "user_density": 4.444444444444445,
+   "tertile": 2
+  },
+  "C009": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16219",
+   "variety": "SGE",
+   "user_density": 3.389830508474576,
+   "tertile": 2
+  },
+  "C010": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16431",
+   "variety": "SGE",
+   "user_density": 0.0,
+   "tertile": 0
+  },
+  "C011": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16364",
+   "variety": "AAE",
+   "user_density": 1.7857142857142858,
+   "tertile": 0
+  },
+  "C012": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16276",
+   "variety": "AAE",
+   "user_density": 2.6315789473684212,
+   "tertile": 1
+  },
+  "C013": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16723",
+   "variety": "SGE",
+   "user_density": 0.0,
+   "tertile": 0
+  },
+  "C014": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16620",
+   "variety": "SGE",
+   "user_density": 1.6666666666666667,
+   "tertile": 1
+  },
+  "C015": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16553",
+   "variety": "AAE",
+   "user_density": 1.7241379310344827,
+   "tertile": 0
+  },
+  "C016": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16656",
+   "variety": "AAE",
+   "user_density": 4.0,
+   "tertile": 1
+  },
+  "C017": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16298",
+   "variety": "SGE",
+   "user_density": 2.0,
+   "tertile": 1
+  },
+  "C018": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16609",
+   "variety": "AAE",
+   "user_density": 3.5714285714285716,
+   "tertile": 1
+  },
+  "C019": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16350",
+   "variety": "AAE",
+   "user_density": 4.25531914893617,
+   "tertile": 2
+  },
+  "C020": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16725",
+   "variety": "AAE",
+   "user_density": 2.1739130434782608,
+   "tertile": 0
+  },
+  "C021": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16166",
+   "variety": "SGE",
+   "user_density": 3.389830508474576,
+   "tertile": 2
+  },
+  "C022": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16381",
+   "variety": "AAE",
+   "user_density": 2.380952380952381,
+   "tertile": 0
+  },
+  "C023": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16822",
+   "variety": "SGE",
+   "user_density": 2.0833333333333335,
+   "tertile": 1
+  },
+  "C024": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16302",
+   "variety": "SGE",
+   "user_density": 4.25531914893617,
+   "tertile": 2
+  },
+  "C025": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16185",
+   "variety": "SGE",
+   "user_density": 0.0,
+   "tertile": 0
+  },
+  "C026": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16518",
+   "variety": "SGE",
+   "user_density": 0.0,
+   "tertile": 0
+  },
+  "C027": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16472",
+   "variety": "SGE",
+   "user_density": 0.0,
+   "tertile": 0
+  },
+  "C028": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16719",
+   "variety": "SGE",
+   "user_density": 1.8518518518518519,
+   "tertile": 1
+  },
+  "C029": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16766",
+   "variety": "AAE",
+   "user_density": 1.7857142857142858,
+   "tertile": 0
+  },
+  "C030": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16842",
+   "variety": "AAE",
+   "user_density": 1.8518518518518519,
+   "tertile": 0
+  },
+  "C031": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16505",
+   "variety": "AAE",
+   "user_density": 3.9215686274509802,
+   "tertile": 1
+  },
+  "C032": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16662",
+   "variety": "SGE",
+   "user_density": 0.0,
+   "tertile": 0
+  },
+  "C033": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16503",
+   "variety": "AAE",
+   "user_density": 3.7037037037037037,
+   "tertile": 1
+  },
+  "C034": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16402",
+   "variety": "AAE",
+   "user_density": 4.081632653061225,
+   "tertile": 1
+  },
+  "C035": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16321",
+   "variety": "SGE",
+   "user_density": 4.081632653061225,
+   "tertile": 2
+  },
+  "C036": {
+   "arm": "CAP",
+   "run": "Q3@CAP_s0",
+   "seed_id": "e5t16780",
+   "variety": "AAE",
+   "user_density": 1.9607843137254901,
+   "tertile": 0
+  },
+  "C037": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16401",
+   "variety": "SGE",
+   "user_density": 1.8867924528301887,
+   "tertile": 1
+  },
+  "C038": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16675",
+   "variety": "AAE",
+   "user_density": 2.3255813953488373,
+   "tertile": 0
+  },
+  "C039": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16696",
+   "variety": "AAE",
+   "user_density": 8.823529411764707,
+   "tertile": 2
+  },
+  "C040": {
+   "arm": "UNMATCHED",
+   "run": "Q3@UNM_s0",
+   "seed_id": "e5t16707",
+   "variety": "SGE",
+   "user_density": 0.0,
+   "tertile": 0
+  }
+ },
+ "tertile_cuts_per100w": {
+  "AAE": [
+   2.380952380952381,
+   4.166666666666667
+  ],
+  "SGE": [
+   0.0,
+   2.272727272727273
+  ]
+ },
+ "decision_rule": "exaggerated share CAP - UNMATCHED, Newcombe 95% CI; Unclear excluded (primary) / counted as not exaggerated (sensitivity); descriptive diagnostic, never a gate; judge agreement (kappa) reported",
+ "annotator": "one author with doctoral-level training, only if the user agrees; never described as community validation"
+}

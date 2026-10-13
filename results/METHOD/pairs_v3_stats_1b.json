@@ -1,0 +1,69 @@
+{
+ "seeds_in": 100797,
+ "usable": 43649,
+ "validation": 300,
+ "o_qualifying_seeds": 3591,
+ "role_sizes": {
+  "U1": 30000,
+  "U_fill_for_O_slots": 12188,
+  "X(O)": 2812,
+  "A": 15000,
+  "leftover_U_capable": 23650,
+  "second_pass_new_seeds": 13510,
+  "second_pass_reused_seeds": 19366,
+  "n_pass2_usable": 43248
+ },
+ "o_ratio": 2.0,
+ "o_qualifying_at": {
+  "1.25": 7897,
+  "1.5": 6117,
+  "2.0": 3591,
+  "3.0": 939
+ },
+ "N": 60000,
+ "sizes": {
+  "CAP60k": 60000,
+  "mix_CAP60k": 180000,
+  "CAP20k": 20000,
+  "mix_CAP20k": 140000,
+  "MC60k": 60000,
+  "mix_MC60k": 180000,
+  "MUO60k": 60000,
+  "mix_MUO60k": 180000,
+  "T60k": 60000,
+  "mix_T60k": 180000
+ },
+ "seed_reuse": "within a set every seed is used once; all sets share the same role pools (the T/MC/MU/MUO ablations re-assign roles)",
+ "density_ratio_chosen_over_prompt": {
+  "matched_median": 0.6450806451612903,
+  "matched_mean": 0.6499745734353054,
+  "matched_share_gt_1.5x": 0.0,
+  "unmatched_median": 0.6517212908784148,
+  "unmatched_mean": 0.8018878562725557,
+  "unmatched_share_gt_1.5x": 0.10695555555555555
+ },
+ "o_share_of_usable": 0.08283928118295693,
+ "o_qualifying_at_1.5x": 6117,
+ "a_only_seeds": 28112,
+ "O_pair_hit_ratio_full_over_matched": {
+  "mean": 2.370357481541692,
+  "median": 2.0
+ },
+ "mean_prompt_density_per100w": 2.767134627577764,
+ "mean_matched_density_per100w": 1.6366156421825002,
+ "mean_full_density_per100w": 1.9413760666381428,
+ "drops": {
+  "no_feature_in_full": 22458,
+  "zero_or_infeasible_target": 28112
+ },
+ "seeds_after_drops": 43949,
+ "mirror_target_minus_achieved_hits": {
+  "mean": -1.8605979006590032,
+  "median": -0.9672131147540983,
+  "mean_abs_rel": 0.37527578247131416,
+  "share_within_25pct": 0.38797777777777775,
+  "cap_over": 1.25
+ },
+ "n_f300": 300,
+ "n_v300": 300
+}

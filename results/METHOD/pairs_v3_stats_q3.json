@@ -1,0 +1,65 @@
+{
+ "seeds_in": 69400,
+ "usable": 30534,
+ "validation": 0,
+ "o_qualifying_seeds": 816,
+ "role_sizes": {
+  "U1": 10000,
+  "U_fill_for_O_slots": 4623,
+  "X(O)": 377,
+  "A": 5000,
+  "leftover_U_capable": 41681,
+  "second_pass_new_seeds": 8026,
+  "second_pass_reused_seeds": 19784,
+  "n_pass2_usable": 30529
+ },
+ "o_ratio": 2.0,
+ "o_qualifying_at": {
+  "1.25": 5278,
+  "1.5": 2992,
+  "2.0": 816,
+  "3.0": 88
+ },
+ "N": 20000,
+ "sizes": {
+  "CAP20k": 20000,
+  "mix_CAP20k": 60000,
+  "CTL20k": 20000,
+  "mix_CTL20k": 60000,
+  "UNM20k": 20000,
+  "mix_UNM20k": 60000
+ },
+ "seed_reuse": "within a set every seed is used once; all sets share the same role pools (the T/MC/MU/MUO ablations re-assign roles)",
+ "density_ratio_chosen_over_prompt": {
+  "matched_median": 0.6876414027149322,
+  "matched_mean": 0.6775257755767687,
+  "matched_share_gt_1.5x": 0.0,
+  "unmatched_median": 0.6898221722133933,
+  "unmatched_mean": 0.8036865655190186,
+  "unmatched_share_gt_1.5x": 0.0942
+ },
+ "o_share_of_usable": 0.026724307329534288,
+ "o_qualifying_at_1.5x": 2992,
+ "a_only_seeds": 20190,
+ "O_pair_hit_ratio_full_over_matched": {
+  "mean": 2.3324172291015794,
+  "median": 2.1666666666666665
+ },
+ "mean_prompt_density_per100w": 2.7735543606486908,
+ "mean_matched_density_per100w": 1.698970153243174,
+ "mean_full_density_per100w": 1.94293394306437,
+ "drops": {
+  "zero_or_infeasible_target": 20190,
+  "no_feature_in_full": 1047
+ },
+ "seeds_after_drops": 30534,
+ "mirror_target_minus_achieved_hits": {
+  "mean": -5.071259339487425,
+  "median": -3.069366479550922,
+  "mean_abs_rel": 0.33279185724505145,
+  "share_within_25pct": 0.4466,
+  "cap_over": 1.25
+ },
+ "n_f300": 0,
+ "n_v300": 0
+}

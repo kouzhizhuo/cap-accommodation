@@ -1,0 +1,80 @@
+{
+ "version": "v1.1 (step 1 accepted by lead <agent>, DECISIONS D9; lexical duplicates removed)",
+ "rule": [
+  "units = retained morph features (AAE) and lexical items (AAE lexicon; SGE particles + lexicon, since SGE is carried by CR_lex, PREREG \u00a72.2);",
+  "within each (variety, tier) rank units by sha1('P3-split-v1|variety|tier|unit') and alternate F_train, F_heldout in rank order (balance +-1).",
+  "F_train builds the DPO pairs; F_heldout is evaluation only. Features not retained (gate/FP audit) are in neither list."
+ ],
+ "lexicon_source": "notes/lexicons/{aae,sge}.json, status==VARIETY only (CHECK/dictionary-only items may be used in transforms but are not detector features until they pass P/R + FP audit; D7)",
+ "excluded_not_retained": {
+  "AAE": [
+   "copula_absence",
+   "uninflect",
+   "dont_3sg",
+   "those_them",
+   "were_was",
+   "existential_it",
+   "habitual_be(no gold)"
+  ],
+  "SGE": [
+   "copula_absence",
+   "uninflect",
+   "zero_plural",
+   "already",
+   "bare_past",
+   "existential_got",
+   "inverted_indirect",
+   "finish_completive/can_cannot are retained but thin: morph descriptive only"
+  ]
+ },
+ "splits": {
+  "AAE.morph": {
+   "F_train": [
+    "finna_gon",
+    "completive_done",
+    "ain_t"
+   ],
+   "F_heldout": [
+    "negative_concord",
+    "yall"
+   ]
+  },
+  "AAE.lex": {
+   "F_train": [
+    "talmbout",
+    "bruh",
+    "tryna",
+    "yo"
+   ],
+   "F_heldout": [
+    "whip",
+    "ion",
+    "fam",
+    "mane"
+   ]
+  },
+  "SGE.particle": {
+   "F_train": [
+    "sia",
+    "ah"
+   ],
+   "F_heldout": [
+    "lah",
+    "liao"
+   ]
+  },
+  "SGE.lex": {
+   "F_train": [
+    "sian",
+    "siao",
+    "walao"
+   ],
+   "F_heldout": [
+    "steady",
+    "makan",
+    "paiseh"
+   ]
+  }
+ },
+ "change_from_v1": "removed 'gon' and \"y'all\" from AAE.lex (duplicates of morph finna_gon / yall); no re-ranking, no other change"
+}

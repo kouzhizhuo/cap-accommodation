@@ -1,0 +1,14 @@
+numpy
+pandas
+pyarrow
+scipy
+statsmodels
+matplotlib
+vllm
+transformers
+datasets
+regex
+langdetect
+immutabledict
+absl-py
+nltk

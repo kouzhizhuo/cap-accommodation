@@ -1,0 +1,29 @@
+{
+ "n_seeds": 287,
+ "n_conditions": 9,
+ "n_varieties": 6,
+ "n_registers": 2,
+ "n_open_lineages": 7,
+ "n_lineages": 10,
+ "n_prior_measures": 3,
+ "note": "MEASURED from local files 2026-10-02 by lead <agent>: seeds = lines of exp/stimuli/seeds_v1.jsonl; conditions = exp/stimuli/v1/*.jsonl (AAE,APP,AUS,BRE,FOR,INF,NGP,SAE,SGE); varieties = conditions minus SAE/INF/FOR; open lineages with every stage incl. base = L1, L2, L3, OLMo-2-13B (L4 Tulu-3 has no public base); prior measures computed so far = LSM, coordination, Blevins (E1/style_summary.json); decoding = exp/harness/gen.py defaults (temperature 0.7, top-p 0.95), not overridden in the E1 queue scripts, which pass --seeds 0 1 2 --n 2; max_stage_resolved_size = largest lineage with every stage scored locally (OLMo-2-32B: base, SFT, DPO, Instruct in E1/summary.json, updated 2026-10-04); audit_n_items = items of the human audit V4 (exp/gold/HUMAN_AUDIT_V4_LABELS.jsonl; updated 2026-10-04) | 2026-10-04: OLMo-2-32B (every stage scored, MB_v in E4/mbv_32b.json) joins as the 6th lineage; open lineages with a base: L1, L2, L3, 13B, 32B. | 2026-10-04 ~22:10 (lead): D18 lineages Zephyr-7B (base, SFT, DPO) and Tulu-2 7B/13B (SFT, DPO; Llama-2 base gated) join: n_lineages 9; lineages with an openly available base 6 (L1, L2, L3, 13B, 32B, Zephyr). | 2026-10-05 ~03:20 (lead): OLMo-3.1-32B (SFT, DPO, RLVR; base not run) joins: n_lineages 10. | 2026-10-05 ~07:45 (lead): OLMo-3.1-32B base (Olmo-3-1125-32B, three framings) run: lineages with a base 7.",
+ "models_in_E1": [
+  "l1",
+  "l2",
+  "l3",
+  "l4",
+  "olmo2_13b",
+  "prompts",
+  "qwen25_1_5b",
+  "qwen25_7b",
+  "validation"
+ ],
+ "temperature": 0.7,
+ "top_p": 0.95,
+ "n_sampling_seeds": 3,
+ "n_samples_per_seed": 2,
+ "max_stage_resolved_size": "32B",
+ "audit_n_items": 84,
+ "temperature__digits": 1,
+ "top_p__digits": 2
+}

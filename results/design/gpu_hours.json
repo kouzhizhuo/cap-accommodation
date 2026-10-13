@@ -1,0 +1,103 @@
+{
+ "as_of": "2026-10-04 ~15:00 CST",
+ "total_gpu_h": 298.0,
+ "total_note": "lower bound: generation hours exclude vLLM load/fetch time; DPO hours are training wall time of finished or running runs; Slurm hours are job wall time x 4 GPUs including model fetch",
+ "by_experiment_gpu_h": {
+  "E5_DPO_training (31 runs: d0, T/C/A arms 1k-60k)": 184.6,
+  "E1_E2_E1b_breadth_newgen_gens (<host>, 1 GPU)": 11.4,
+  "E5_replies_and_pair_pipeline_gens (<host>)": 1.6,
+  "Slurm 4-GPU jobs (32B/72B/24B gens, MB_v at scale, P0)": 97.8,
+  "MB_v scoring on 1 GPU (~31 models x ~4 min, estimate)": 2.0,
+  "IFEval (5 runs, estimate)": 0.2
+ },
+ "detail": {
+  "<host>_gens": {
+   "E1_gen": {
+    "files": 96,
+    "wall_h": 2.91,
+    "gpu_h": 2.91
+   },
+   "E1_request": {
+    "files": 16,
+    "wall_h": 0.07,
+    "gpu_h": 0.07
+   },
+   "E1_breadth": {
+    "files": 40,
+    "wall_h": 2.61,
+    "gpu_h": 2.61
+   },
+   "E1_newgen": {
+    "files": 8,
+    "wall_h": 1.06,
+    "gpu_h": 1.06
+   },
+   "E1_seeds34": {
+    "files": 15,
+    "wall_h": 1.17,
+    "gpu_h": 1.17
+   },
+   "E1_cap1024": {
+    "files": 6,
+    "wall_h": 1.17,
+    "gpu_h": 1.17
+   },
+   "E2": {
+    "files": 42,
+    "wall_h": 1.46,
+    "gpu_h": 1.46
+   },
+   "E1b": {
+    "files": 6,
+    "wall_h": 0.75,
+    "gpu_h": 0.75
+   },
+   "E5x": {
+    "files": 2,
+    "wall_h": 0.02,
+    "gpu_h": 0.02
+   },
+   "E5_ifeval": {
+    "files": 1,
+    "wall_h": 0.0,
+    "gpu_h": 0.0
+   },
+   "P0": {
+    "files": 28,
+    "wall_h": 0.2,
+    "gpu_h": 0.2
+   }
+  },
+  "<host>_gens": {
+   "E5_gen": {
+    "files": 28,
+    "wall_h": 1.19,
+    "gpu_h": 1.19
+   },
+   "E5_pairs_replies": {
+    "files": 2,
+    "wall_h": 0.28,
+    "gpu_h": 0.28
+   },
+   "E5_pairs_r3": {
+    "files": 4,
+    "wall_h": 0.16,
+    "gpu_h": 0.16
+   },
+   "E5_dpo_train_wall_h": {
+    "runs": 31,
+    "gpu_h_lower_bound": 184.6
+   }
+  },
+  "slurm_jobs_wall_h": {
+   "405620 OLMo-2-32B v0": 3.62,
+   "406787 OLMo-2-32B E1 v2": 4.5,
+   "406788 Qwen2.5-72B E1": 3.58,
+   "407098 Mistral-Small-24B": 0.35,
+   "407170 MB_v big (hit the 12 h limit)": 12.0,
+   "404993 P0 L1": 0.4
+  },
+  "slurm_gpus_per_job": 4
+ },
+ "not_included": "runs still training or queued after this date (T60k_s1/s2, C60k_s2, authentic twins, Zephyr/Tulu-2/OLMo-3-32B lineages, Qwen3.8-27B); API subjects (not GPU; spend in logs/api_spend.md)"
+}

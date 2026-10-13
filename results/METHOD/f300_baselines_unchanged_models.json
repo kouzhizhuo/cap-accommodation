@@ -1,0 +1,385 @@
+{
+ "definitions": [
+  "Per run (request-level, bootstrap over the 300 requests): crheld (primary; CR on the held-out features of AAE/SGE), ftrain (CR on trained features = calibration, target <= 1), crg (NGP/APP all-feature rate CR),",
+  "split S, calibration tail (share of requests with prompt density > 0 whose mean reply density exceeds 2x the prompt's, by variety), insertion on the SAE twins (F_train and all-feature hits /100 words, share of replies with >= 1 hit).",
+  "Arms: run id minus _s<k>; seeds are averaged.  Tests: arm A - arm B (mean over runs of A minus mean over runs of B on the SAME bootstrap request sample), 95% percentile CI, B=2000.",
+  "  MV_COREF=0 python analysis/method_eval.py --scores E5/score_f300.parquet [more.parquet] --out results/METHOD/f300.json [--tests CAP60k:C60k CAP60k:d0 CAP60k:T60k]"
+ ],
+ "n_requests": 300,
+ "heldout_items_excluded_fp_gt_2pct": [
+  "ITEM.AAE.lex.train.bruh.real_n",
+  "ITEM.AAE.lex.train.yo.real_n"
+ ],
+ "runs": {
+  "E5@C60k_s0": {
+   "crheld": 0.0018528094288044084,
+   "ftrain": -0.0008638620906276509,
+   "crg": 0.004992782735609071,
+   "split": NaN,
+   "tail2x_AAE": 0.0,
+   "tail2x_SGE": 0.0,
+   "bootstrap_ci": {
+    "crheld": [
+     0.0005725849599828517,
+     0.003248671292827937
+    ],
+    "ftrain": [
+     -0.002771410101073516,
+     0.0
+    ]
+   },
+   "insertion_sae_train_AAE": 0.0,
+   "insertion_sae_any_AAE": 0.0,
+   "insertion_sae_all_AAE": 0.48143596686195383,
+   "insertion_sae_train_SGE": 0.0009746588693957114,
+   "insertion_sae_any_SGE": 0.0005555555555555556,
+   "insertion_sae_all_SGE": 0.4867417887501731,
+   "mean_reply_words": 226.584
+  },
+  "E5@d0_s0": {
+   "crheld": -0.00047400988434271983,
+   "ftrain": 0.00040360769808013206,
+   "crg": 0.0034610411592233548,
+   "split": NaN,
+   "tail2x_AAE": 0.0,
+   "tail2x_SGE": 0.0,
+   "bootstrap_ci": {
+    "crheld": [
+     -0.0018711439521785897,
+     0.0007345160007645485
+    ],
+    "ftrain": [
+     0.0,
+     0.0012948391455835275
+    ]
+   },
+   "insertion_sae_train_AAE": 0.0,
+   "insertion_sae_any_AAE": 0.0,
+   "insertion_sae_all_AAE": 0.6010391327948464,
+   "insertion_sae_train_SGE": 0.0,
+   "insertion_sae_any_SGE": 0.0,
+   "insertion_sae_all_SGE": 0.6037471317473185,
+   "mean_reply_words": 270.1773333333333
+  },
+  "Q3@INSTRUCT": {
+   "crheld": 0.0011487837485444539,
+   "ftrain": 0.00013599136540535042,
+   "crg": 0.004687943520277065,
+   "split": NaN,
+   "tail2x_AAE": 0.0,
+   "tail2x_SGE": 0.0,
+   "bootstrap_ci": {
+    "crheld": [
+     -0.001199401190217311,
+     0.0035590173579295513
+    ],
+    "ftrain": [
+     0.0,
+     0.0004362824203448197
+    ]
+   },
+   "insertion_sae_train_AAE": 0.0,
+   "insertion_sae_any_AAE": 0.0,
+   "insertion_sae_all_AAE": 0.6153555245493567,
+   "insertion_sae_train_SGE": 0.0005864027854132307,
+   "insertion_sae_any_SGE": 0.0011111111111111111,
+   "insertion_sae_all_SGE": 0.6257174689058397,
+   "mean_reply_words": 258.57644444444446
+  },
+  "Q3@INSTRUCT-B3": {
+   "crheld": 0.05212045372306029,
+   "ftrain": 0.010975454149434979,
+   "crg": 0.022882749354635752,
+   "split": NaN,
+   "tail2x_AAE": 0.0,
+   "tail2x_SGE": 0.0,
+   "bootstrap_ci": {
+    "crheld": [
+     0.03918251420244192,
+     0.06503495564300864
+    ],
+    "ftrain": [
+     0.006245880552895587,
+     0.015944589045181562
+    ]
+   },
+   "insertion_sae_train_AAE": 0.0,
+   "insertion_sae_any_AAE": 0.0,
+   "insertion_sae_all_AAE": 0.5282088183030804,
+   "insertion_sae_train_SGE": 0.0,
+   "insertion_sae_any_SGE": 0.0,
+   "insertion_sae_all_SGE": 0.5273163921837755,
+   "mean_reply_words": 162.95855555555556
+  },
+  "Q3@INSTRUCT-B34": {
+   "crheld": 0.11320284703846113,
+   "ftrain": 0.13497958525368534,
+   "crg": 0.03920612862252101,
+   "split": NaN,
+   "tail2x_AAE": 0.0,
+   "tail2x_SGE": 0.0,
+   "bootstrap_ci": {
+    "crheld": [
+     0.09855764775881377,
+     0.1311070709477126
+    ],
+    "ftrain": [
+     0.11546240920251638,
+     0.1532269825531799
+    ]
+   },
+   "insertion_sae_train_AAE": 0.3023522781147455,
+   "insertion_sae_any_AAE": 0.30777777777777776,
+   "insertion_sae_all_AAE": 0.9900238392076282,
+   "insertion_sae_train_SGE": 0.0,
+   "insertion_sae_any_SGE": 0.0,
+   "insertion_sae_all_SGE": 0.6390446110933312,
+   "mean_reply_words": 141.5071111111111
+  },
+  "Q3@INSTRUCT-B4": {
+   "crheld": 0.04593141388524214,
+   "ftrain": 0.009972682154553669,
+   "crg": 0.024211021607011593,
+   "split": NaN,
+   "tail2x_AAE": 0.0,
+   "tail2x_SGE": 0.0,
+   "bootstrap_ci": {
+    "crheld": [
+     0.03529429888287472,
+     0.057407561921057566
+    ],
+    "ftrain": [
+     0.0043553716641414435,
+     0.017073845610865643
+    ]
+   },
+   "insertion_sae_train_AAE": 0.4727438477001685,
+   "insertion_sae_any_AAE": 0.9505555555555556,
+   "insertion_sae_all_AAE": 1.2349341625296792,
+   "insertion_sae_train_SGE": 0.0,
+   "insertion_sae_any_SGE": 0.0,
+   "insertion_sae_all_SGE": 0.7456322053940077,
+   "mean_reply_words": 259.0601111111111
+  }
+ },
+ "arms": {
+  "C60k": {
+   "runs": [
+    "E5@C60k_s0"
+   ],
+   "n_runs": 1,
+   "crheld": 0.0018528094288044084,
+   "crheld_std": null,
+   "ftrain": -0.0008638620906276509,
+   "ftrain_std": null,
+   "crg": 0.004992782735609071,
+   "crg_std": null,
+   "tail2x_AAE": 0.0,
+   "tail2x_AAE_std": null,
+   "tail2x_SGE": 0.0,
+   "tail2x_SGE_std": null,
+   "insertion_sae_train_AAE": 0.0,
+   "insertion_sae_train_SGE": 0.0009746588693957114,
+   "insertion_sae_any_AAE": 0.0,
+   "insertion_sae_any_SGE": 0.0005555555555555556,
+   "insertion_sae_all_AAE": 0.48143596686195383,
+   "insertion_sae_all_SGE": 0.4867417887501731,
+   "mean_reply_words": 226.584
+  },
+  "d0": {
+   "runs": [
+    "E5@d0_s0"
+   ],
+   "n_runs": 1,
+   "crheld": -0.00047400988434271983,
+   "crheld_std": null,
+   "ftrain": 0.00040360769808013206,
+   "ftrain_std": null,
+   "crg": 0.0034610411592233548,
+   "crg_std": null,
+   "tail2x_AAE": 0.0,
+   "tail2x_AAE_std": null,
+   "tail2x_SGE": 0.0,
+   "tail2x_SGE_std": null,
+   "insertion_sae_train_AAE": 0.0,
+   "insertion_sae_train_SGE": 0.0,
+   "insertion_sae_any_AAE": 0.0,
+   "insertion_sae_any_SGE": 0.0,
+   "insertion_sae_all_AAE": 0.6010391327948464,
+   "insertion_sae_all_SGE": 0.6037471317473185,
+   "mean_reply_words": 270.1773333333333
+  },
+  "INSTRUCT": {
+   "runs": [
+    "Q3@INSTRUCT"
+   ],
+   "n_runs": 1,
+   "crheld": 0.0011487837485444539,
+   "crheld_std": null,
+   "ftrain": 0.00013599136540535042,
+   "ftrain_std": null,
+   "crg": 0.004687943520277065,
+   "crg_std": null,
+   "tail2x_AAE": 0.0,
+   "tail2x_AAE_std": null,
+   "tail2x_SGE": 0.0,
+   "tail2x_SGE_std": null,
+   "insertion_sae_train_AAE": 0.0,
+   "insertion_sae_train_SGE": 0.0005864027854132307,
+   "insertion_sae_any_AAE": 0.0,
+   "insertion_sae_any_SGE": 0.0011111111111111111,
+   "insertion_sae_all_AAE": 0.6153555245493567,
+   "insertion_sae_all_SGE": 0.6257174689058397,
+   "mean_reply_words": 258.57644444444446
+  },
+  "INSTRUCT-B3": {
+   "runs": [
+    "Q3@INSTRUCT-B3"
+   ],
+   "n_runs": 1,
+   "crheld": 0.05212045372306029,
+   "crheld_std": null,
+   "ftrain": 0.010975454149434979,
+   "ftrain_std": null,
+   "crg": 0.022882749354635752,
+   "crg_std": null,
+   "tail2x_AAE": 0.0,
+   "tail2x_AAE_std": null,
+   "tail2x_SGE": 0.0,
+   "tail2x_SGE_std": null,
+   "insertion_sae_train_AAE": 0.0,
+   "insertion_sae_train_SGE": 0.0,
+   "insertion_sae_any_AAE": 0.0,
+   "insertion_sae_any_SGE": 0.0,
+   "insertion_sae_all_AAE": 0.5282088183030804,
+   "insertion_sae_all_SGE": 0.5273163921837755,
+   "mean_reply_words": 162.95855555555556
+  },
+  "INSTRUCT-B34": {
+   "runs": [
+    "Q3@INSTRUCT-B34"
+   ],
+   "n_runs": 1,
+   "crheld": 0.11320284703846113,
+   "crheld_std": null,
+   "ftrain": 0.13497958525368534,
+   "ftrain_std": null,
+   "crg": 0.03920612862252101,
+   "crg_std": null,
+   "tail2x_AAE": 0.0,
+   "tail2x_AAE_std": null,
+   "tail2x_SGE": 0.0,
+   "tail2x_SGE_std": null,
+   "insertion_sae_train_AAE": 0.3023522781147455,
+   "insertion_sae_train_SGE": 0.0,
+   "insertion_sae_any_AAE": 0.30777777777777776,
+   "insertion_sae_any_SGE": 0.0,
+   "insertion_sae_all_AAE": 0.9900238392076282,
+   "insertion_sae_all_SGE": 0.6390446110933312,
+   "mean_reply_words": 141.5071111111111
+  },
+  "INSTRUCT-B4": {
+   "runs": [
+    "Q3@INSTRUCT-B4"
+   ],
+   "n_runs": 1,
+   "crheld": 0.04593141388524214,
+   "crheld_std": null,
+   "ftrain": 0.009972682154553669,
+   "ftrain_std": null,
+   "crg": 0.024211021607011593,
+   "crg_std": null,
+   "tail2x_AAE": 0.0,
+   "tail2x_AAE_std": null,
+   "tail2x_SGE": 0.0,
+   "tail2x_SGE_std": null,
+   "insertion_sae_train_AAE": 0.4727438477001685,
+   "insertion_sae_train_SGE": 0.0,
+   "insertion_sae_any_AAE": 0.9505555555555556,
+   "insertion_sae_any_SGE": 0.0,
+   "insertion_sae_all_AAE": 1.2349341625296792,
+   "insertion_sae_all_SGE": 0.7456322053940077,
+   "mean_reply_words": 259.0601111111111
+  }
+ },
+ "tests": {
+  "INSTRUCT-B3:INSTRUCT": {
+   "crheld": {
+    "diff": 0.05097166997451583,
+    "lo": 0.03852891565291973,
+    "hi": 0.06531193668759111
+   },
+   "ftrain": {
+    "diff": 0.010839462784029629,
+    "lo": 0.006390897895990851,
+    "hi": 0.0158217534381531
+   },
+   "crg": {
+    "diff": 0.018194805834358688,
+    "lo": 0.013774465830872705,
+    "hi": 0.022929203450914936
+   },
+   "split": {
+    "diff": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "tail2x_AAE": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   "tail2x_SGE": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   "per_run_crheld": {
+    "Q3@INSTRUCT-B3": {
+     "diff": 0.05097166997451583,
+     "lo": 0.03852891565291973,
+     "hi": 0.06531193668759111
+    }
+   }
+  },
+  "d0:C60k": {
+   "crheld": {
+    "diff": -0.0023268193131471284,
+    "lo": -0.00428759828335418,
+    "hi": -0.0004660553493073286
+   },
+   "ftrain": {
+    "diff": 0.001267469788707783,
+    "lo": 0.0,
+    "hi": 0.004152450030856226
+   },
+   "crg": {
+    "diff": -0.0015317415763857166,
+    "lo": -0.002804105873565392,
+    "hi": -0.0003303659888503804
+   },
+   "split": {
+    "diff": NaN,
+    "lo": NaN,
+    "hi": NaN
+   },
+   "tail2x_AAE": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   "tail2x_SGE": {
+    "diff": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+   },
+   "per_run_crheld": {
+    "E5@d0_s0": {
+     "diff": -0.0023268193131471284,
+     "lo": -0.00428759828335418,
+     "hi": -0.0004660553493073286
+    }
+   }
+  }
+ }
+}

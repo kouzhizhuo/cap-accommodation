@@ -1,0 +1,52 @@
+{
+ "treat_runs": [
+  "E5@CAP60k_s0"
+ ],
+ "control_runs": [
+  "E5@E5v@C60k_s0"
+ ],
+ "n_requests": 300,
+ "trained_feature_cr": {
+  "treat": 0.3778263008530203,
+  "control": 0.0010715364793495085,
+  "diff": 0.37675476437367084,
+  "diff_ci": [
+   0.3494263756946565,
+   0.4075317013541459
+  ]
+ },
+ "calibration_ratio_of_means": {
+  "treat": {
+   "AAE": 0.4977039633217221,
+   "SGE": 0.25794863838431853
+  },
+  "control": {
+   "AAE": 0.0005769102067170166,
+   "SGE": 0.0015661627519820006
+  },
+  "treat_ci_AAE": [
+   0.4462688981736905,
+   0.5516558449040557
+  ],
+  "treat_ci_SGE": [
+   0.23066197911763742,
+   0.2868301942957101
+  ]
+ },
+ "insertion_per100w": {
+  "treat": 0.0006613756613756613,
+  "control": 0.0025711157965543235,
+  "diff": -0.0019097401351786621,
+  "diff_ci": [
+   -0.004203536528696546,
+   0.00028303838137684893
+  ]
+ },
+ "gate": {
+  "end_to_end": true,
+  "trained_cr_ci_lo_gt0": true,
+  "calibration_in_0.5_1.5_both": false,
+  "insertion_ci_hi_le_0.05": true,
+  "PASS": false
+ }
+}

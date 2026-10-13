@@ -1,0 +1,46 @@
+{
+ "n_items": 40,
+ "annotator": "one author with doctoral-level training (user attestation, openpyxl entry)",
+ "cap": {
+  "n": 20,
+  "n_natural": 20,
+  "n_exaggerated": 0,
+  "n_unclear": 0,
+  "exag_share": 0.0,
+  "exag_lo": 0.0,
+  "exag_hi": 0.16112516018512965,
+  "exag_share__digits": 2,
+  "exag_lo__digits": 2,
+  "exag_hi__digits": 2
+ },
+ "unmatched": {
+  "n": 20,
+  "n_natural": 20,
+  "n_exaggerated": 0,
+  "n_unclear": 0,
+  "exag_share": 0.0,
+  "exag_lo": 0.0,
+  "exag_hi": 0.16112516018512965,
+  "exag_share__digits": 2,
+  "exag_lo__digits": 2,
+  "exag_hi__digits": 2
+ },
+ "diff": {
+  "est": 0.0,
+  "lo": -0.16112516018512965,
+  "hi": 0.16112516018512965,
+  "est__digits": 2,
+  "lo__digits": 2,
+  "hi__digits": 2
+ },
+ "diff_sens": {
+  "est": 0.0,
+  "lo": -0.16112516018512965,
+  "hi": 0.16112516018512965,
+  "est__digits": 2,
+  "lo__digits": 2,
+  "hi__digits": 2
+ },
+ "discriminates": false,
+ "note": "descriptive diagnostic, never a gate (D24); with no exaggerated reply in either arm the check does not discriminate between the arms and is not evidence that CAP reduces caricature; over-production evidence stays with the automatic calibration metrics (M2)"
+}

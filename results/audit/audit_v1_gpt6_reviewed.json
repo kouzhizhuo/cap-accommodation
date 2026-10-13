@@ -1,0 +1,72 @@
+{
+ "gpt6_reviewed": {
+  "n_labels": 60,
+  "rater": "gpt6_reviewed",
+  "label_file": "LLM_GPT6_AUDIT_LABELS.jsonl",
+  "retained": {
+   "n": 28,
+   "tp": 11,
+   "fp": 3,
+   "fn": 2,
+   "tn": 12,
+   "precision": 0.786,
+   "precision_lo": 0.524,
+   "precision_hi": 0.924,
+   "recall": 0.846,
+   "recall_lo": 0.578,
+   "recall_hi": 0.957,
+   "agreement": 0.821
+  },
+  "retained_unsure_as_no": {
+   "n": 28,
+   "tp": 11,
+   "fp": 3,
+   "fn": 2,
+   "tn": 12,
+   "precision": 0.786,
+   "precision_lo": 0.524,
+   "precision_hi": 0.924,
+   "recall": 0.846,
+   "recall_lo": 0.578,
+   "recall_hi": 0.957,
+   "agreement": 0.821
+  },
+  "excluded": {
+   "n": 12,
+   "tp": 3,
+   "fp": 1,
+   "fn": 1,
+   "tn": 7,
+   "precision": 0.75,
+   "precision_lo": 0.301,
+   "precision_hi": 0.954,
+   "recall": 0.75,
+   "recall_lo": 0.301,
+   "recall_hi": 0.954,
+   "agreement": 0.833
+  },
+  "all_features": {
+   "n": 40,
+   "tp": 14,
+   "fp": 4,
+   "fn": 3,
+   "tn": 19,
+   "precision": 0.778,
+   "precision_lo": 0.548,
+   "precision_hi": 0.91,
+   "recall": 0.824,
+   "recall_lo": 0.59,
+   "recall_hi": 0.938,
+   "agreement": 0.825
+  },
+  "n_unsure": 0,
+  "reply_items": {
+   "n": 20,
+   "human_not_at_all": 19,
+   "detector_none": 18,
+   "agreement": 0.85,
+   "agreement_lo": 0.64,
+   "agreement_hi": 0.948
+  }
+ }
+}

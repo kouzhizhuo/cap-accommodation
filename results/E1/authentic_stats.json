@@ -1,0 +1,47 @@
+{
+ "auth_gro": {
+  "n_pairs": 225,
+  "eligible_with_retained_AAE_hit": 225,
+  "source": "Groenwold et al. 2020 (EMNLP-AAVE-files); AAVE side real tweets",
+  "mean_words": {
+   "AAE": 19.9,
+   "SAE": 22.5
+  }
+ },
+ "auth_endive_aae": {
+  "n_pairs": 500,
+  "per_task": {
+   "SST-2": 63,
+   "COPA": 63,
+   "GSM8K": 63,
+   "SVAMP": 63,
+   "WSC": 62,
+   "MBPP": 62,
+   "Logic Bench YN": 62,
+   "FOLIO": 62
+  },
+  "source": "EnDive AAVE (LLM-translated dialect vs SAE original; Gupta et al. 2025)",
+  "mean_words": {
+   "AAE": 30.3,
+   "SAE": 31.0
+  }
+ },
+ "auth_endive_sge": {
+  "n_pairs": 500,
+  "per_task": {
+   "SST-2": 63,
+   "COPA": 63,
+   "GSM8K": 63,
+   "SVAMP": 63,
+   "WSC": 62,
+   "MBPP": 62,
+   "Logic Bench YN": 62,
+   "FOLIO": 62
+  },
+  "source": "EnDive CollSgE (LLM-translated dialect vs SAE original; Gupta et al. 2025)",
+  "mean_words": {
+   "SGE": 31.3,
+   "SAE": 32.2
+  }
+ }
+}

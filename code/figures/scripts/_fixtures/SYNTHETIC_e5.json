@@ -1,0 +1,19 @@
+{
+"e5.olmo2_1b.treat-d0-s1.stig.cr": 0.020893064857690505,
+"e5.olmo2_1b.treat-d0-s2.stig.cr": 0.01408971647143726,
+"e5.olmo2_1b.treat-d0-s3.stig.cr": 0.01881390176122306,
+"e5.olmo2_1b.treat-d5-s1.stig.cr": 0.040022537070929454,
+"e5.olmo2_1b.treat-d20-s1.stig.cr": 0.16868592529476942,
+"e5.olmo2_1b.treat-d20-s2.stig.cr": 0.18362839799188754,
+"e5.olmo2_1b.treat-d20-s3.stig.cr": 0.15871432958177856,
+"e5.olmo2_1b.ctrl-d0-s1.stig.cr": 0.028466085214811636,
+"e5.olmo2_1b.ctrl-d5-s1.stig.cr": 0.002539035246260913,
+"e5.olmo2_1b.ctrl-d5-s2.stig.cr": 0.027567385026642677,
+"e5.olmo2_1b.ctrl-d20-s1.stig.cr": 0.011545029671206759,
+"e5.olmo2_1b.ctrl-d20-s2.stig.cr": 0.027789910843424612,
+"e5.olmo2_1b.anti-d5-s1.stig.cr": 0.0013095120758479981,
+"e5.olmo2_1b.fit.stig.slope": 0.008,
+"e5.olmo2_1b.fit.stig.slope_lo": 0.005,
+"e5.olmo2_1b.fit.stig.slope_hi": 0.011,
+"e5.olmo2_1b.fit.stig.intercept": 0.02
+}

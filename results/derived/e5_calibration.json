@@ -1,0 +1,270 @@
+{
+ "runs": {
+  "c60k_s0": {
+   "arm": "C60k",
+   "unsolicited": 0.0,
+   "aae": {
+    "reply": 0.00024096269415569083,
+    "user": 1.6012980795525695,
+    "ratio": 0.00015047959979007781,
+    "over2x": 0.0,
+    "corr": 0.05111391840871508,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 0.0,
+    "user": 0.4896119332505007,
+    "ratio": 0.0,
+    "over2x": 0.0,
+    "corr": null,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  },
+  "c60k_s1": {
+   "arm": "C60k",
+   "unsolicited": 0.0,
+   "aae": {
+    "reply": 0.0,
+    "user": 1.6012980795525695,
+    "ratio": 0.0,
+    "over2x": 0.0,
+    "corr": null,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 0.00017978950245053094,
+    "user": 0.4896119332505007,
+    "ratio": 0.0003672081708812131,
+    "over2x": 0.0,
+    "corr": 0.09820405200289205,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  },
+  "c60k_s2": {
+   "arm": "C60k",
+   "unsolicited": 0.0,
+   "aae": {
+    "reply": 0.00016592002654720425,
+    "user": 1.6012980795525695,
+    "ratio": 0.00010361595299831071,
+    "over2x": 0.003484320557491289,
+    "corr": -0.06471978158225794,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 0.00019956016938667176,
+    "user": 0.4896119332505007,
+    "ratio": 0.0004075884508406591,
+    "over2x": 0.0,
+    "corr": 0.07509721623750569,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  },
+  "t60k_s0": {
+   "arm": "T60k",
+   "unsolicited": 1.0567420033113182,
+   "aae": {
+    "reply": 0.7450314342843284,
+    "user": 1.6012980795525695,
+    "ratio": 0.46526717529849476,
+    "over2x": 0.3205574912891986,
+    "corr": 0.19938144601740704,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 4.635404337969404,
+    "user": 0.4896119332505007,
+    "ratio": 9.467506862415028,
+    "over2x": 0.7874564459930313,
+    "corr": 0.2838832985161887,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  },
+  "t60k_s1": {
+   "arm": "T60k",
+   "unsolicited": 0.10104305634369476,
+   "aae": {
+    "reply": 0.2667262284657743,
+    "user": 1.6012980795525695,
+    "ratio": 0.16656875560626555,
+    "over2x": 0.21254355400696864,
+    "corr": 0.3029164547506831,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 0.5255229140818917,
+    "user": 0.4896119332505007,
+    "ratio": 1.073345803875695,
+    "over2x": 0.31010452961672474,
+    "corr": 0.4247852977810461,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  },
+  "t60k_s2": {
+   "arm": "T60k",
+   "unsolicited": 0.38282069726484,
+   "aae": {
+    "reply": 0.5061036845540433,
+    "user": 1.6012980795525695,
+    "ratio": 0.31605838476709935,
+    "over2x": 0.2787456445993031,
+    "corr": 0.3085695392845803,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 0.9139207286445986,
+    "user": 0.4896119332505007,
+    "ratio": 1.8666226588415449,
+    "over2x": 0.40418118466898956,
+    "corr": 0.44027069055354273,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  },
+  "t60k_s3": {
+   "arm": "T60k",
+   "unsolicited": 0.2535001233698152,
+   "aae": {
+    "reply": 0.3743031049964125,
+    "user": 1.6012980795525695,
+    "ratio": 0.23374979947580984,
+    "over2x": 0.24390243902439024,
+    "corr": 0.31693427091728726,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 0.6837813912579898,
+    "user": 0.4896119332505007,
+    "ratio": 1.3965782792882746,
+    "over2x": 0.3693379790940767,
+    "corr": 0.3773184941080497,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  },
+  "d0_s0": {
+   "arm": "d0",
+   "unsolicited": 0.0,
+   "aae": {
+    "reply": 0.0,
+    "user": 1.6012980795525695,
+    "ratio": 0.0,
+    "over2x": 0.0,
+    "corr": null,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 0.0,
+    "user": 0.4896119332505007,
+    "ratio": 0.0,
+    "over2x": 0.0,
+    "corr": null,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  },
+  "d0_s1": {
+   "arm": "d0",
+   "unsolicited": 0.0,
+   "aae": {
+    "reply": 0.0,
+    "user": 1.6012980795525695,
+    "ratio": 0.0,
+    "over2x": 0.0,
+    "corr": null,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 0.0,
+    "user": 0.4896119332505007,
+    "ratio": 0.0,
+    "over2x": 0.0,
+    "corr": null,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  },
+  "d0_s2": {
+   "arm": "d0",
+   "unsolicited": 0.0,
+   "aae": {
+    "reply": 0.0,
+    "user": 1.6012980795525695,
+    "ratio": 0.0,
+    "over2x": 0.0,
+    "corr": null,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   },
+   "sge": {
+    "reply": 0.0,
+    "user": 0.4896119332505007,
+    "ratio": 0.0,
+    "over2x": 0.0,
+    "corr": null,
+    "ratio__digits": 2,
+    "over2x__digits": 2,
+    "corr__digits": 2
+   }
+  }
+ },
+ "t60k": {
+  "unsolicited_min": 0.10104305634369476,
+  "unsolicited_max": 1.0567420033113182,
+  "aae_ratio_min": 0.16656875560626555,
+  "aae_ratio_max": 0.46526717529849476,
+  "sge_ratio_min": 1.073345803875695,
+  "sge_ratio_max": 9.467506862415028,
+  "sge_over2x_min": 0.31010452961672474,
+  "sge_over2x_max": 0.7874564459930313,
+  "n_runs": 4,
+  "unsolicited_min__digits": 2,
+  "unsolicited_max__digits": 2,
+  "aae_ratio_min__digits": 2,
+  "aae_ratio_max__digits": 2,
+  "sge_ratio_min__digits": 2,
+  "sge_ratio_max__digits": 2,
+  "sge_over2x_min__digits": 2,
+  "sge_over2x_max__digits": 2
+ },
+ "controls_unsolicited_max": 0.0,
+ "controls_unsolicited_max__digits": 2,
+ "user_density_per100w": {
+  "aae": 1.6012980795525695,
+  "sge": 0.4896119332505007
+ },
+ "note": "F_train features only, novel spans; v1 stimuli; descriptive (existing E5 runs)"
+}

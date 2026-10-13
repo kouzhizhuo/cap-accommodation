@@ -1,0 +1,242 @@
+{
+ "V003": {
+  "A_shown": 0.99654,
+  "B_shown": 0.98857,
+  "vern_full": 0.99515,
+  "inf_full": 0.99676
+ },
+ "V004": {
+  "A_shown": 0.99467,
+  "B_shown": 0.99722,
+  "vern_full": 0.99725,
+  "inf_full": 0.99681
+ },
+ "V007": {
+  "A_shown": 0.93316,
+  "B_shown": 0.88194,
+  "vern_full": 0.98549,
+  "inf_full": 0.97222
+ },
+ "V010": {
+  "A_shown": 0.51729,
+  "B_shown": 0.63367,
+  "vern_full": 0.41052,
+  "inf_full": 0.56435
+ },
+ "V013": {
+  "A_shown": 0.57852,
+  "B_shown": 0.4855,
+  "vern_full": 0.36519,
+  "inf_full": 0.52498
+ },
+ "V014": {
+  "A_shown": 0.99063,
+  "B_shown": 0.98493,
+  "vern_full": 0.90694,
+  "inf_full": 0.99063
+ },
+ "V015": {
+  "A_shown": 0.90246,
+  "B_shown": 0.99195,
+  "vern_full": 0.98037,
+  "inf_full": 0.94436
+ },
+ "V016": {
+  "A_shown": 0.99655,
+  "B_shown": 0.99538,
+  "vern_full": 0.99149,
+  "inf_full": 0.99685
+ },
+ "V020": {
+  "A_shown": 0.85358,
+  "B_shown": 0.84525,
+  "vern_full": 0.6562,
+  "inf_full": 0.57767
+ },
+ "V021": {
+  "A_shown": 0.84613,
+  "B_shown": 0.81277,
+  "vern_full": 0.69512,
+  "inf_full": 0.8908
+ },
+ "V023": {
+  "A_shown": 0.60698,
+  "B_shown": 0.76956,
+  "vern_full": 0.76956,
+  "inf_full": 0.77796
+ },
+ "V027": {
+  "A_shown": 0.80079,
+  "B_shown": 0.99255,
+  "vern_full": 0.89748,
+  "inf_full": 0.99255
+ },
+ "V031": {
+  "A_shown": 0.99748,
+  "B_shown": 0.97909,
+  "vern_full": 0.97909,
+  "inf_full": 0.99748
+ },
+ "V034": {
+  "A_shown": 0.99721,
+  "B_shown": 0.99736,
+  "vern_full": 0.99736,
+  "inf_full": 0.9973
+ },
+ "V039": {
+  "A_shown": 0.95846,
+  "B_shown": 0.93272,
+  "vern_full": 0.84808,
+  "inf_full": 0.88092
+ },
+ "V043": {
+  "A_shown": 0.99722,
+  "B_shown": 0.74207,
+  "vern_full": 0.51982,
+  "inf_full": 0.99722
+ },
+ "V044": {
+  "A_shown": 0.53583,
+  "B_shown": 0.99634,
+  "vern_full": 0.99706,
+  "inf_full": 0.6034
+ },
+ "V045": {
+  "A_shown": 0.5837,
+  "B_shown": 0.38093,
+  "vern_full": 0.95642,
+  "inf_full": 0.4879
+ },
+ "V046": {
+  "A_shown": 0.63215,
+  "B_shown": 0.42261,
+  "vern_full": 0.3729,
+  "inf_full": 0.59007
+ },
+ "V047": {
+  "A_shown": 0.87348,
+  "B_shown": 0.99657,
+  "vern_full": 0.99688,
+  "inf_full": 0.99109
+ },
+ "V049": {
+  "A_shown": 0.85904,
+  "B_shown": 0.97822,
+  "vern_full": 0.94315,
+  "inf_full": 0.85904
+ },
+ "V051": {
+  "A_shown": 0.99709,
+  "B_shown": 0.97886,
+  "vern_full": 0.99728,
+  "inf_full": 0.95641
+ },
+ "V053": {
+  "A_shown": 0.9954,
+  "B_shown": 0.99596,
+  "vern_full": 0.98521,
+  "inf_full": 0.99632
+ },
+ "V059": {
+  "A_shown": 0.47601,
+  "B_shown": 0.54181,
+  "vern_full": 0.52577,
+  "inf_full": 0.47582
+ },
+ "V060": {
+  "A_shown": 0.99702,
+  "B_shown": 0.98681,
+  "vern_full": 0.983,
+  "inf_full": 0.99702
+ },
+ "V062": {
+  "A_shown": 0.83078,
+  "B_shown": 0.87538,
+  "vern_full": 0.97369,
+  "inf_full": 0.83078
+ },
+ "V063": {
+  "A_shown": 0.99642,
+  "B_shown": 0.74587,
+  "vern_full": 0.47427,
+  "inf_full": 0.99707
+ },
+ "V064": {
+  "A_shown": 0.69717,
+  "B_shown": 0.55549,
+  "vern_full": 0.39462,
+  "inf_full": 0.38218
+ },
+ "V066": {
+  "A_shown": 0.69121,
+  "B_shown": 0.87103,
+  "vern_full": 0.59461,
+  "inf_full": 0.68696
+ },
+ "V067": {
+  "A_shown": 0.98437,
+  "B_shown": 0.59279,
+  "vern_full": 0.52569,
+  "inf_full": 0.90576
+ },
+ "V070": {
+  "A_shown": 0.93399,
+  "B_shown": 0.81307,
+  "vern_full": 0.97617,
+  "inf_full": 0.93399
+ },
+ "V071": {
+  "A_shown": 0.25026,
+  "B_shown": 0.53097,
+  "vern_full": 0.23588,
+  "inf_full": 0.34203
+ },
+ "V072": {
+  "A_shown": 0.50871,
+  "B_shown": 0.97209,
+  "vern_full": 0.41212,
+  "inf_full": 0.97209
+ },
+ "V073": {
+  "A_shown": 0.9133,
+  "B_shown": 0.97798,
+  "vern_full": 0.26144,
+  "inf_full": 0.92736
+ },
+ "V074": {
+  "A_shown": 0.99564,
+  "B_shown": 0.99067,
+  "vern_full": 0.99099,
+  "inf_full": 0.99564
+ },
+ "V077": {
+  "A_shown": 0.99011,
+  "B_shown": 0.99471,
+  "vern_full": 0.94447,
+  "inf_full": 0.86926
+ },
+ "V078": {
+  "A_shown": 0.91368,
+  "B_shown": 0.99709,
+  "vern_full": 0.55614,
+  "inf_full": 0.99709
+ },
+ "V080": {
+  "A_shown": 0.98568,
+  "B_shown": 0.94064,
+  "vern_full": 0.75357,
+  "inf_full": 0.92127
+ },
+ "V081": {
+  "A_shown": 0.98753,
+  "B_shown": 0.9948,
+  "vern_full": 0.9948,
+  "inf_full": 0.99548
+ },
+ "V083": {
+  "A_shown": 0.47475,
+  "B_shown": 0.54698,
+  "vern_full": 0.37339,
+  "inf_full": 0.37509
+ }
+}

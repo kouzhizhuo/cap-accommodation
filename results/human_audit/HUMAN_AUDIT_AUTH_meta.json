@@ -1,0 +1,130 @@
+{
+ "seed": 20261005,
+ "n_items": 20,
+ "purpose": "precision of the WildChat dialect-feature filter (Arm N); 13 AAE-flagged, 5 SGE-flagged, 2 unflagged controls",
+ "general_instructions": "Thank you for labelling these 20 short items (about 8 minutes). Each item is a real user message and the description of one grammatical feature of English; decide whether the feature occurs in the message at least once. Some messages may contain informal language. Nothing in the items tells you the answer; there are no trick items. If you cannot decide, choose Unsure. Please do not look anything up.",
+ "item_provenance": {
+  "N001": {
+   "set": "SGEN",
+   "seed_id": "nSGE0017",
+   "feature": "SGE.particles",
+   "flagged_by_detector": true
+  },
+  "N002": {
+   "set": "AAEN",
+   "seed_id": "nAAE0320",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N003": {
+   "set": "CTRL",
+   "seed_id": "nCTR0151",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": false
+  },
+  "N004": {
+   "set": "AAEN",
+   "seed_id": "nAAE0269",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N005": {
+   "set": "SGEN",
+   "seed_id": "nSGE0042",
+   "feature": "SGE.particles",
+   "flagged_by_detector": true
+  },
+  "N006": {
+   "set": "AAEN",
+   "seed_id": "nAAE0147",
+   "feature": "AAE.ain_t",
+   "flagged_by_detector": true
+  },
+  "N007": {
+   "set": "SGEN",
+   "seed_id": "nSGE0054",
+   "feature": "SGE.particles",
+   "flagged_by_detector": true
+  },
+  "N008": {
+   "set": "AAEN",
+   "seed_id": "nAAE0477",
+   "feature": "AAE.ain_t",
+   "flagged_by_detector": true
+  },
+  "N009": {
+   "set": "AAEN",
+   "seed_id": "nAAE0480",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N010": {
+   "set": "AAEN",
+   "seed_id": "nAAE0220",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N011": {
+   "set": "AAEN",
+   "seed_id": "nAAE0394",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N012": {
+   "set": "SGEN",
+   "seed_id": "nSGE0053",
+   "feature": "SGE.particles",
+   "flagged_by_detector": true
+  },
+  "N013": {
+   "set": "AAEN",
+   "seed_id": "nAAE0450",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N014": {
+   "set": "SGEN",
+   "seed_id": "nSGE0048",
+   "feature": "SGE.particles",
+   "flagged_by_detector": true
+  },
+  "N015": {
+   "set": "AAEN",
+   "seed_id": "nAAE0495",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N016": {
+   "set": "AAEN",
+   "seed_id": "nAAE0491",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N017": {
+   "set": "AAEN",
+   "seed_id": "nAAE0054",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N018": {
+   "set": "CTRL",
+   "seed_id": "nCTR0124",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": false
+  },
+  "N019": {
+   "set": "AAEN",
+   "seed_id": "nAAE0186",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  },
+  "N020": {
+   "set": "AAEN",
+   "seed_id": "nAAE0092",
+   "feature": "AAE.negative_concord",
+   "flagged_by_detector": true
+  }
+ },
+ "source": "allenai/WildChat-1M (ODC-BY) first user turns; stimuli/armN/*.jsonl",
+ "decision_rule": "filter precision = share of detector-flagged items with human Yes (Wilson 95% CI); controls expected No"
+}

@@ -1,0 +1,35 @@
+{
+ "rule": "seed whose default-reply dF (mean over 6 replies/seed, AAE minus SAE formality) is closest to the median among seeds whose on-request reply (sampling_seed 0, sample 0) realises >=2 retained AAE features (L2@dpo)",
+ "retained": [
+  "AAE.ain_t",
+  "AAE.completive_done",
+  "AAE.finna_gon",
+  "AAE.negative_concord",
+  "AAE.yall"
+ ],
+ "n_seeds": 287,
+ "n_candidates": 54,
+ "median_dF": -0.0922403599725854,
+ "ranked_top5": [
+  "v1s002",
+  "v1s131",
+  "v1s269",
+  "v1s242",
+  "v1s147"
+ ],
+ "dF_top5": [
+  -0.10542970602230639,
+  -0.0790510139228644,
+  -0.013249289848204171,
+  0.04010086703175375,
+  0.09074851882240864
+ ],
+ "request_real_top5": [
+  2,
+  5,
+  2,
+  2,
+  2
+ ],
+ "selected": "v1s002"
+}

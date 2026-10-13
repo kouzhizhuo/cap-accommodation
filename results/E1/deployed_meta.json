@@ -1,0 +1,44 @@
+{
+ "query_date": "2026-10-02",
+ "models": {
+  "gpt53chat": "openai/gpt-5.3-chat",
+  "sonnet46": "anthropic/claude-sonnet-4.6",
+  "gemini25flash": "google/gemini-2.5-flash",
+  "dsv4pro": "deepseek/deepseek-v4-pro",
+  "kimik25": "bedrock/moonshotai.kimi-k2.5"
+ },
+ "served_model_ids": {
+  "gpt53chat": [
+   "openai/gpt-5.3-chat"
+  ],
+  "sonnet46": [
+   "anthropic/claude-sonnet-4.6"
+  ],
+  "gemini25flash": [
+   "google/gemini-2.5-flash"
+  ],
+  "dsv4pro": [
+   "deepseek/deepseek-v4-pro"
+  ],
+  "kimik25": [
+   "bedrock/moonshotai.kimi-k2.5"
+  ]
+ },
+ "access": "OpenAI-compatible API proxy, chat completions; subjects only, never judges",
+ "stimuli": "v1, 100 seeds stratified by task type (seed 20261002) x {SAE,INF,FOR,BRE,AUS,AAE,SGE,NGP,APP}; plus an explicit-request condition for AAE and SGE (system: 'The user writes in <variety>; reply in the same variety.')",
+ "decoding": "1 sample per cell; provider-default temperature/top-p (not controllable per provider); no system prompt in the main condition; max_completion_tokens=1024 for all models except gemini25flash=4096 (deviation: Gemini 2.5 Flash spends the 1,024-token budget on hidden reasoning and returned ~31 visible words in a test)",
+ "n_rows": {
+  "main_per_model": 900,
+  "request_per_model": 200
+ },
+ "spend_usd_total": 20.641,
+ "spend_usd_by_model": {
+  "bedrock/moonshotai.kimi-k2.5": 0.9838,
+  "openai/gpt-5.3-chat": 4.9006,
+  "anthropic/claude-sonnet-4.6": 5.9094,
+  "deepseek/deepseek-v4-pro": 2.5306,
+  "google/gemini-2.5-flash": 6.317
+ },
+ "spend_log": "logs/api_spend.md (cap $60 for this row; total well below)",
+ "std_note": "one sample per cell -> no sampling-seed std; CIs are prompt bootstraps (100 prompts)"
+}

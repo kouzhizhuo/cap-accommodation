@@ -1,0 +1,65 @@
+{
+ "SAE": {
+  "n": 287,
+  "mean_morph": 0.0,
+  "mean_lex": 0.0,
+  "gave_up_sentences": 0,
+  "identical_to_source": 287
+ },
+ "INF": {
+  "n": 287,
+  "mean_morph": 1.7247386759581882,
+  "mean_lex": 3.4111498257839723,
+  "gave_up_sentences": 0,
+  "identical_to_source": 0
+ },
+ "AAE": {
+  "n": 287,
+  "mean_morph": 3.8641114982578397,
+  "mean_lex": 0.0,
+  "gave_up_sentences": 0,
+  "identical_to_source": 2
+ },
+ "SGE": {
+  "n": 287,
+  "mean_morph": 4.829268292682927,
+  "mean_lex": 1.637630662020906,
+  "gave_up_sentences": 0,
+  "identical_to_source": 0
+ },
+ "BRE": {
+  "n": 287,
+  "mean_morph": 1.397212543554007,
+  "mean_lex": 0.0,
+  "gave_up_sentences": 0,
+  "identical_to_source": 13
+ },
+ "AUS": {
+  "n": 287,
+  "mean_morph": 1.505226480836237,
+  "mean_lex": 0.0,
+  "gave_up_sentences": 0,
+  "identical_to_source": 13
+ },
+ "NGP": {
+  "n": 287,
+  "mean_morph": 1.7560975609756098,
+  "mean_lex": 3.9965156794425085,
+  "gave_up_sentences": 0,
+  "identical_to_source": 0
+ },
+ "APP": {
+  "n": 287,
+  "mean_morph": 4.560975609756097,
+  "mean_lex": 0.03832752613240418,
+  "gave_up_sentences": 0,
+  "identical_to_source": 0
+ },
+ "FOR": {
+  "n": 287,
+  "mean_morph": 0.0,
+  "mean_lex": 1.721254355400697,
+  "gave_up_sentences": 0,
+  "identical_to_source": 43
+ }
+}

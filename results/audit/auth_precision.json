@@ -1,0 +1,85 @@
+{
+ "n_items": 20,
+ "n_unsure": 0,
+ "sgen": {
+  "k": 0,
+  "n": 5,
+  "rate": 0.0,
+  "lo": 0.0,
+  "hi": 0.43448246865939283,
+  "rate__digits": 3,
+  "lo__digits": 3,
+  "hi__digits": 3
+ },
+ "aaen": {
+  "k": 3,
+  "n": 13,
+  "rate": 0.23076923076923078,
+  "lo": 0.08179528654269594,
+  "hi": 0.5025637616051964,
+  "rate__digits": 3,
+  "lo__digits": 3,
+  "hi__digits": 3
+ },
+ "ctrl": {
+  "k": 0,
+  "n": 2,
+  "rate": 0.0,
+  "lo": 0.0,
+  "hi": 0.6576197760453506,
+  "rate__digits": 3,
+  "lo__digits": 3,
+  "hi__digits": 3
+ },
+ "flagged": {
+  "k": 3,
+  "n": 18,
+  "rate": 0.16666666666666666,
+  "lo": 0.05836576760185505,
+  "hi": 0.39222038302033446,
+  "rate__digits": 3,
+  "lo__digits": 3,
+  "hi__digits": 3
+ },
+ "by_feature": {
+  "aae_ain_t": {
+   "k": 2,
+   "n": 2,
+   "rate": 1.0,
+   "lo": 0.3423802239546494,
+   "hi": 1.0,
+   "rate__digits": 3,
+   "lo__digits": 3,
+   "hi__digits": 3
+  },
+  "aae_negative_concord": {
+   "k": 1,
+   "n": 11,
+   "rate": 0.09090909090909091,
+   "lo": 0.016232172705325593,
+   "hi": 0.3773584391082959,
+   "rate__digits": 3,
+   "lo__digits": 3,
+   "hi__digits": 3
+  },
+  "sge_particles": {
+   "k": 0,
+   "n": 5,
+   "rate": 0.0,
+   "lo": 0.0,
+   "hi": 0.43448246865939283,
+   "rate__digits": 3,
+   "lo__digits": 3,
+   "hi__digits": 3
+  }
+ },
+ "wild_aae_corr": {
+  "est": 0.11538461538461539,
+  "lo": 0.04089764327134797,
+  "hi": 0.2512818808025982,
+  "est__digits": 2,
+  "lo__digits": 2,
+  "hi__digits": 2
+ },
+ "note": "precision of the recogniser filter on WildChat first turns; templated creative-writing prompts and code dominate the rejected hits"
+}

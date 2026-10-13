@@ -1,0 +1,182 @@
+{
+ "authentic_rate_per100w": {
+  "AAE": {
+   "ain_t": 0.25888324873096447,
+   "completive_done": 0.012690355329949238,
+   "finna_gon": 0.18274111675126903,
+   "negative_concord": 0.08121827411167512,
+   "yall": 0.1700507614213198,
+   "lexicon": 0.39593908629441626,
+   "g_drop": 0.01015228426395939,
+   "habitual_be": 0.048223350253807105
+  },
+  "SGE": {
+   "particles": 1.3288702151381262,
+   "lexicon": 0.1917557913862163
+  }
+ },
+ "n_authentic_texts": {
+  "AAE": 2019,
+  "SGE": 36081
+ },
+ "dsv4pro": {
+  "deployed": {
+   "aae": {
+    "comp": 0.9390067242439128,
+    "car": 25.85947320302947,
+    "default_ratio": 0.012965248800517172,
+    "n_features": 8,
+    "share_features_ge_50pct_of_authentic": 1.0,
+    "by_feature_ratio": {
+     "ain_t": 3.523,
+     "completive_done": 5.626,
+     "finna_gon": 0.829,
+     "negative_concord": 3.624,
+     "yall": 0.884,
+     "lexicon": 1.074,
+     "g_drop": 190.517,
+     "habitual_be": 0.799
+    }
+   },
+   "sge": {
+    "comp": 1.0,
+    "car": 3.394051777338718,
+    "default_ratio": 0.22230599786305863,
+    "n_features": 2,
+    "share_features_ge_50pct_of_authentic": 1.0,
+    "by_feature_ratio": {
+     "particles": 1.343,
+     "lexicon": 5.445
+    }
+   }
+  }
+ },
+ "gemini25flash": {
+  "deployed": {
+   "aae": {
+    "comp": 0.9305857402813706,
+    "car": 26.50901720679824,
+    "default_ratio": 0.01165682776831142,
+    "n_features": 8,
+    "share_features_ge_50pct_of_authentic": 1.0,
+    "by_feature_ratio": {
+     "ain_t": 3.777,
+     "completive_done": 6.984,
+     "finna_gon": 1.082,
+     "negative_concord": 3.667,
+     "yall": 0.916,
+     "lexicon": 2.83,
+     "g_drop": 192.287,
+     "habitual_be": 0.529
+    }
+   },
+   "sge": {
+    "comp": 1.0,
+    "car": 2.5905012080642686,
+    "default_ratio": 0.18667436430605386,
+    "n_features": 2,
+    "share_features_ge_50pct_of_authentic": 1.0,
+    "by_feature_ratio": {
+     "particles": 1.036,
+     "lexicon": 4.145
+    }
+   }
+  }
+ },
+ "gpt53chat": {
+  "deployed": {
+   "aae": {
+    "comp": 0.6198650113256575,
+    "car": 4.9895766416960985,
+    "default_ratio": 0.006979437379945087,
+    "n_features": 8,
+    "share_features_ge_50pct_of_authentic": 0.625,
+    "by_feature_ratio": {
+     "ain_t": 1.079,
+     "completive_done": 0.812,
+     "finna_gon": 0.689,
+     "negative_concord": 0.686,
+     "yall": 0.455,
+     "lexicon": 0.175,
+     "g_drop": 35.879,
+     "habitual_be": 0.142
+    }
+   },
+   "sge": {
+    "comp": 0.7657915137396926,
+    "car": 0.8354330574655165,
+    "default_ratio": 0.03744623025127532,
+    "n_features": 2,
+    "share_features_ge_50pct_of_authentic": 1.0,
+    "by_feature_ratio": {
+     "particles": 0.532,
+     "lexicon": 1.139
+    }
+   }
+  }
+ },
+ "kimik25": {
+  "deployed": {
+   "aae": {
+    "comp": 0.9764126052594712,
+    "car": 18.046003249590843,
+    "default_ratio": 0.11538913080950747,
+    "n_features": 8,
+    "share_features_ge_50pct_of_authentic": 1.0,
+    "by_feature_ratio": {
+     "ain_t": 2.646,
+     "completive_done": 3.288,
+     "finna_gon": 0.811,
+     "negative_concord": 1.996,
+     "yall": 1.254,
+     "lexicon": 1.483,
+     "g_drop": 130.777,
+     "habitual_be": 2.113
+    }
+   },
+   "sge": {
+    "comp": 1.0,
+    "car": 3.9854074834007553,
+    "default_ratio": 0.25826386288108494,
+    "n_features": 2,
+    "share_features_ge_50pct_of_authentic": 1.0,
+    "by_feature_ratio": {
+     "particles": 2.093,
+     "lexicon": 5.877
+    }
+   }
+  }
+ },
+ "sonnet46": {
+  "deployed": {
+   "aae": {
+    "comp": 0.9075525221842197,
+    "car": 5.010480490755173,
+    "default_ratio": 0.008744673295454546,
+    "n_features": 8,
+    "share_features_ge_50pct_of_authentic": 1.0,
+    "by_feature_ratio": {
+     "ain_t": 2.138,
+     "completive_done": 3.081,
+     "finna_gon": 0.692,
+     "negative_concord": 2.414,
+     "yall": 1.247,
+     "lexicon": 1.742,
+     "g_drop": 28.202,
+     "habitual_be": 0.569
+    }
+   },
+   "sge": {
+    "comp": 1.0,
+    "car": 3.376624022208593,
+    "default_ratio": 0.0224672939300165,
+    "n_features": 2,
+    "share_features_ge_50pct_of_authentic": 1.0,
+    "by_feature_ratio": {
+     "particles": 2.468,
+     "lexicon": 4.285
+    }
+   }
+  }
+ }
+}

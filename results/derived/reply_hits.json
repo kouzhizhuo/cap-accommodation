@@ -1,0 +1,68 @@
+{
+ "aligned": {
+  "n_replies": 30996,
+  "aae": {
+   "aae_hits": 146,
+   "nc_share": 0.8835616438356164,
+   "yall_aint_share": 0.0958904109589041,
+   "sge_particles": 4,
+   "sge_lexicon": 6,
+   "nc_share__digits": 2,
+   "yall_aint_share__digits": 2,
+   "nc_pct": 88
+  },
+  "sae": {
+   "aae_hits": 121,
+   "nc_share": 0.9338842975206612,
+   "yall_aint_share": 0.0,
+   "sge_particles": 2,
+   "sge_lexicon": 6,
+   "nc_share__digits": 2,
+   "yall_aint_share__digits": 2,
+   "nc_pct": 93
+  },
+  "sge": {
+   "aae_hits": 107,
+   "nc_share": 0.9813084112149533,
+   "yall_aint_share": 0.018691588785046728,
+   "sge_particles": 368,
+   "sge_lexicon": 44,
+   "nc_share__digits": 2,
+   "yall_aint_share__digits": 2,
+   "nc_pct": 98
+  }
+ },
+ "base": {
+  "n_replies": 13776,
+  "aae": {
+   "aae_hits": 243,
+   "nc_share": 0.18930041152263374,
+   "yall_aint_share": 0.720164609053498,
+   "sge_particles": 1,
+   "sge_lexicon": 0,
+   "nc_share__digits": 2,
+   "yall_aint_share__digits": 2,
+   "nc_pct": 19
+  },
+  "sae": {
+   "aae_hits": 37,
+   "nc_share": 0.918918918918919,
+   "yall_aint_share": 0.0,
+   "sge_particles": 4,
+   "sge_lexicon": 0,
+   "nc_share__digits": 2,
+   "yall_aint_share__digits": 2,
+   "nc_pct": 92
+  },
+  "sge": {
+   "aae_hits": 32,
+   "nc_share": 0.90625,
+   "yall_aint_share": 0.0,
+   "sge_particles": 1278,
+   "sge_lexicon": 187,
+   "nc_share__digits": 2,
+   "yall_aint_share__digits": 2,
+   "nc_pct": 91
+  }
+ }
+}

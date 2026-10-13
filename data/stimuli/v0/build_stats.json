@@ -1,0 +1,30 @@
+{
+ "SAE": {
+  "n": 50,
+  "mean_morph": 0.0,
+  "mean_lex": 0.0,
+  "gave_up_sentences": 0,
+  "identical_to_source": 50
+ },
+ "INF": {
+  "n": 50,
+  "mean_morph": 1.86,
+  "mean_lex": 3.4,
+  "gave_up_sentences": 0,
+  "identical_to_source": 0
+ },
+ "AAE": {
+  "n": 50,
+  "mean_morph": 2.76,
+  "mean_lex": 0.0,
+  "gave_up_sentences": 0,
+  "identical_to_source": 3
+ },
+ "SGE": {
+  "n": 50,
+  "mean_morph": 3.94,
+  "mean_lex": 1.88,
+  "gave_up_sentences": 0,
+  "identical_to_source": 0
+ }
+}

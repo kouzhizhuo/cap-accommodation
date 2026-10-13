@@ -1,0 +1,56 @@
+{
+ "purpose": "human spot-check of the WildChat dialect-feature filter (Arm N); author labels (user), blind",
+ "n_items": 20,
+ "flagged_precision": {
+  "k": 3,
+  "n": 18,
+  "wilson": [
+   0.167,
+   0.058,
+   0.392
+  ]
+ },
+ "AAE": {
+  "k": 3,
+  "n": 13,
+  "wilson": [
+   0.231,
+   0.082,
+   0.503
+  ]
+ },
+ "SGE_particles": {
+  "k": 0,
+  "n": 5,
+  "wilson": [
+   0.0,
+   -0.0,
+   0.434
+  ]
+ },
+ "by_feature": {
+  "AAE.negative_concord": {
+   "k": 1,
+   "n": 11
+  },
+  "SGE.particles": {
+   "k": 0,
+   "n": 5
+  },
+  "AAE.ain_t": {
+   "k": 2,
+   "n": 2
+  }
+ },
+ "unflagged_controls_human_yes": {
+  "k": 0,
+  "n": 2
+ },
+ "decision": "Arm N (recogniser-flagged WildChat requests) is NOT used as authentic dialect input in authentic.json; its generations (if any) are reported separately, labelled 'recogniser-flagged WildChat requests, precision 3/18'",
+ "rejected_hit_types_reported_by_user": [
+  "templated creative-writing prompts (shooting-script template, fan-fiction template)",
+  "VBA/Excel code",
+  "standard 'not ... nothing'",
+  "names / column labels ('T Foo Ah', 'column AH')"
+ ]
+}
