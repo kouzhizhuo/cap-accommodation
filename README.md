@@ -1,4 +1,4 @@
-# Standard Replies, Selective Updates: Language Accommodation After Post-Training
+# Answering in the User’s Variety: Calibrated Accommodation Pairs for Post-Training
 
 Code and data for an anonymous submission under review.
 
